@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -20,9 +21,9 @@ const Home = () => {
       </p>
 
       {/* Button */}
-      <button className="bg-white text-black px-8 py-3 flex gap-2 rounded-full font-medium hover:bg-gray-200 transition">
+      <NavLink to='/contact' className="bg-white text-black px-8 py-3 flex gap-2 rounded-full font-medium hover:bg-gray-200 transition">
         Get in touch <ArrowUpRight />
-      </button>
+      </NavLink>
 
       
     </section>
