@@ -1,0 +1,42 @@
+ [
+  {
+    "title": "Online Bookstore",
+    "description": "Developed a full-stack online bookstore platform that allows users to browse, search, and purchase books with integrated payment gateway.",
+    "image": "/bookstore.png",
+    "stack":
+      "REACT | NODEJS | EXPRESS | TAILWIND CSS | MONGODB | CASHFREE PAYMENT GATEWAY",
+    "link": "https://gitlab.com/komalSingh9289/bookstore.git"
+  },
+  {
+    "title": "ECOMMERCE [VOGUEVIBE]",
+    "description":
+      "Designed & Developed an e-commerce website tailored to women's fashion, focused on providing a seamless shopping experience.",
+    "stack": "REACT | NODEJS | EXPRESS | TAILWIND CSS | MONGODB",
+    "image": "/ecom.png",
+    "link": "https://github.com/komalSingh9289/Ecom-VogueVibe-.git"
+  },
+  {
+    "title": "Expense Tracker",
+    "description":
+      "A web application to manage personal finances effectively. Track daily expenses with charts and reports.",
+    "stack":
+      "REACT | NODEJS | EXPRESS | TAILWIND CSS | MONGODB | JWT | RESTful | Charts",
+    "image": "/ecom-site.png",
+    "link": "https://github.com/komalSingh9289/Expense-Tracker"
+  },
+  {
+    "title": "Blog CMS",
+    "description": " A dynamic platform for creating, editing, and managing blog posts with user authentication, category management, and comment moderation.",
+    "stack": "HTML | CSS | JavaScript | Bootstrap | PHP | MySQL",
+    "image": "/blog-cms.png",
+    "link": "https://github.com/komalSingh9289/blog-cms.git"
+  },
+  {
+    "title": "Netflix Clone",
+    "description":
+      "A replica of Netflix's landing page featuring a sleek design with hero sections, promotional content, and responsive layout.",
+    "stack": "HTML | CSS | JavaScript",
+    "image": "/netflix.png",
+    "link": "https://github.com/komalSingh9289/Netflix-clone.git"
+  }
+]
