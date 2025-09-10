@@ -1,10 +1,11 @@
 import { ArrowUpRight } from "lucide-react";
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
-    <section className="flex flex-col items-center justify-center text-center pt-32 pb-12 px-6">
+    <section className="flex flex-col items-center justify-center text-center pt-32 pb-12 px-6 overflow-x-hidden">
       {/* Subtitle */}
       <p className="text-green-500 text-sm tracking-wider mb-3">
         ● CURRENTLY LEARNING @ NEXT.JS
@@ -15,17 +16,29 @@ const Home = () => {
         KOMAL SINGH
       </h2>
 
-      {/* Role */}
-      <p className="text-gray-400 text-2xl md:text-4xl font-medium mb-8">
-        Software Developer <br /> Full Stack - MERN
+      {/* Role with typing effect */}
+      <p className="text-gray-400 text-2xl md:text-4xl font-medium mb-8 w-full overflow-x-hidden">
+        <TypeAnimation
+          sequence={[
+            "Software Developer", 2000,
+            "Full Stack - MERN", 2000,
+            "Open for Opportunities", 2000,
+          ]}
+          wrapper="span"
+          speed={50}
+          repeat={Infinity}
+          className="inline-block"
+          cursor={true}
+        />
       </p>
 
       {/* Button */}
-      <NavLink to='/contact' className="bg-white text-black px-8 py-3 flex gap-2 rounded-full font-medium hover:bg-gray-200 transition">
+      <NavLink
+        to="/contact"
+        className="bg-white text-black px-8 py-3 flex gap-2 rounded-full font-medium hover:bg-gray-200 transition"
+      >
         Get in touch <ArrowUpRight />
       </NavLink>
-
-      
     </section>
   );
 };

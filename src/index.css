@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html, body {
+  overflow-x: hidden;
+}
+
 body{
     background: #000;
     color: aliceblue;
@@ -58,5 +62,11 @@ body{
   padding: 1rem;
   border: 1px solid #fff;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.type-animation-cursor {
+  display: inline-block;
+  width: 1px; 
+  background: #ccc; /* blinking effect */
 }
 

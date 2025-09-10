@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 const projects = [
   {
     title: "Online Bookstore",
-    description: "Developed a full-stack online bookstore platform that allows users to browse, search, and purchase books with integrated payment gateway.",
+    description:
+      "Developed a full-stack online bookstore platform that allows users to browse, search, and purchase books with integrated payment gateway.",
     image: "/bookstore.png",
     stack:
       "REACT | NODEJS | EXPRESS | TAILWIND CSS | MONGODB | CASHFREE PAYMENT GATEWAY",
@@ -30,7 +31,8 @@ const projects = [
   },
   {
     title: "Blog CMS",
-    description: " A dynamic platform for creating, editing, and managing blog posts with user authentication, category management, and comment moderation.",
+    description:
+      "A dynamic platform for creating, editing, and managing blog posts with user authentication, category management, and comment moderation.",
     stack: "HTML | CSS | JavaScript | Bootstrap | PHP | MySQL",
     image: "/blog-cms.png",
     link: "https://github.com/komalSingh9289/blog-cms.git",
@@ -45,21 +47,42 @@ const projects = [
   },
 ];
 
+// Animation variants for cards
+const cardVariants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: (i) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: i * 0.2, duration: 0.6, ease: "easeOut" },
+  }),
+};
+
 const Projects = () => {
   return (
     <div className="max-w-7xl mx-auto p-4 my-12 h-auto">
-            <motion.h2
-            className="text-4xl text-gray-300 text-center font-bold mb-10"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-          >
-            My Projects
-          </motion.h2>
+      {/* Section Heading */}
+      <motion.h2
+        className="text-4xl text-gray-300 text-center font-bold mb-10"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
+        My Projects
+      </motion.h2>
 
+      {/* Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
-          <div key={index} className="flip-card">
+          <motion.div
+            key={index}
+            className="flip-card"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            custom={index} // pass index for stagger delay
+          >
             <div className="flip-card-inner">
               {/* Front */}
               <div className="flip-card-front">
@@ -72,7 +95,9 @@ const Projects = () => {
 
               {/* Back */}
               <div className="flip-card-back">
-                <h3 className="text-lg font-semibold mb-2 text-green-500">{project.title}</h3>
+                <h3 className="text-lg font-semibold mb-2 text-green-500">
+                  {project.title}
+                </h3>
                 <p className="text-sm mb-2 text-center">
                   {project.description}
                 </p>
@@ -92,7 +117,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
