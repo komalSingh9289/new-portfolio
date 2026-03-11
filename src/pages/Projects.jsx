@@ -4,6 +4,15 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Real Time Movie Reservation",
+    description:
+      "Developed a real-time movie reservation web app using websockets for live seat updates, allowing users to book and manage movie tickets seamlessly.",
+    image: "/movie.png",
+    stack:
+      "NEXTJS | NODEJS | WEBSOCKETS | TAILWIND CSS | MONGODB |SHADCNUI",
+    link: "https://github.com/komalSingh9289/movie-reservation.git",
+  },
+  {
     title: "Online Bookstore",
     description:
       "Developed a full-stack online bookstore platform that allows users to browse, search, and purchase books with integrated payment gateway.",
@@ -23,9 +32,9 @@ const projects = [
   {
     title: "Expense Tracker",
     description:
-      "A web application to manage personal finances effectively. Track daily expenses with charts and reports.",
+      "A web application to manage personal finances effectively. Track daily expenses with charts and reports. Get AI insights on spending habits and receive personalized budget recommendations.",
     stack:
-      "REACT | NODEJS | EXPRESS | TAILWIND CSS | MONGODB | JWT | RESTful | Charts",
+      "REACT | NODEJS | EXPRESS | GEMINIAPI | MONGODB | JWT |  TAILWIND CSS | Charts",
     image: "/ecom-site.png",
     link: "https://github.com/komalSingh9289/Expense-Tracker",
   },

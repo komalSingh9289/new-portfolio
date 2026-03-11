@@ -8,7 +8,7 @@ const Home = () => {
     <section className="flex flex-col items-center justify-center text-center pt-32 pb-12 px-6 overflow-x-hidden">
       {/* Subtitle */}
       <p className="text-green-500 text-sm tracking-wider mb-3">
-        ● CURRENTLY LEARNING @ NEXT.JS
+        ● CURRENTLY LEARNING @ DSA
       </p>
 
       {/* Main Title */}

@@ -1,4 +1,13 @@
  [
+    {
+    "title": "Real Time Movie Reservation",
+    "description":
+      "Developed a real-time movie reservation web app using websockets for live seat updates, allowing users to book and manage movie tickets seamlessly.",
+    "image": "/movie.png",
+    "stack":
+      "NEXTJS | NODEJS | WEBSOCKETS | TAILWIND CSS | MONGODB |SHADCNUI",
+    "link": "https://github.com/komalSingh9289/movie-reservation.git"
+  },
   {
     "title": "Online Bookstore",
     "description": "Developed a full-stack online bookstore platform that allows users to browse, search, and purchase books with integrated payment gateway.",
