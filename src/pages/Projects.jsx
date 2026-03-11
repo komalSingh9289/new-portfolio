@@ -21,6 +21,15 @@ const projects = [
       "REACT | NODEJS | EXPRESS | TAILWIND CSS | MONGODB | CASHFREE PAYMENT GATEWAY",
     link: "https://gitlab.com/komalSingh9289/bookstore.git",
   },
+   {
+    title: "Expense Tracker",
+    description:
+      "A web application to manage personal finances effectively. Track daily expenses with charts and reports.",
+    stack:
+      "REACT | NODEJS | TAILWIND CSS | MONGODB | GEMINI API  | RESTful | Charts",
+    image: "/ecom-site.png",
+    link: "https://expense-tracker-drab-sigma-49.vercel.app/",
+  },
   {
     title: "ECOMMERCE [VOGUEVIBE]",
     description:
@@ -32,9 +41,9 @@ const projects = [
   {
     title: "Expense Tracker",
     description:
-      "A web application to manage personal finances effectively. Track daily expenses with charts and reports. Get AI insights on spending habits and receive personalized budget recommendations.",
+      "A web application to manage personal finances effectively. Track daily expenses with charts and reports.",
     stack:
-      "REACT | NODEJS | EXPRESS | GEMINIAPI | MONGODB | JWT |  TAILWIND CSS | Charts",
+      "REACT | NODEJS | EXPRESS | TAILWIND CSS | MONGODB | JWT | RESTful | Charts",
     image: "/ecom-site.png",
     link: "https://github.com/komalSingh9289/Expense-Tracker",
   },
