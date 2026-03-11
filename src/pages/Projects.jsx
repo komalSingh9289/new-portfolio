@@ -24,7 +24,7 @@ const projects = [
    {
     title: "Expense Tracker",
     description:
-      "A web application to manage personal finances effectively. Track daily expenses with charts and reports.",
+      "A web application to manage personal finances effectively. Track daily expenses with charts and reports. Integrates Gemini API for AI-driven financial insights.",
     stack:
       "REACT | NODEJS | TAILWIND CSS | MONGODB | GEMINI API  | RESTful | Charts",
     image: "/ecom-site.png",
@@ -38,15 +38,7 @@ const projects = [
     image: "/ecom.png",
     link: "https://github.com/komalSingh9289/Ecom-VogueVibe-.git",
   },
-  {
-    title: "Expense Tracker",
-    description:
-      "A web application to manage personal finances effectively. Track daily expenses with charts and reports.",
-    stack:
-      "REACT | NODEJS | EXPRESS | TAILWIND CSS | MONGODB | JWT | RESTful | Charts",
-    image: "/ecom-site.png",
-    link: "https://github.com/komalSingh9289/Expense-Tracker",
-  },
+
   {
     title: "Blog CMS",
     description:
