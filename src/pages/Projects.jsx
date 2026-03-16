@@ -8,8 +8,7 @@ const projects = [
     description:
       "Developed a real-time movie reservation web app using websockets for live seat updates, allowing users to book and manage movie tickets seamlessly.",
     image: "/movie.png",
-    stack:
-      "NEXTJS | NODEJS | WEBSOCKETS | TAILWIND CSS | MONGODB |SHADCNUI",
+    stack: "NEXTJS | NODEJS | WEBSOCKETS | TAILWIND CSS | MONGODB |SHADCNUI",
     link: "https://github.com/komalSingh9289/movie-reservation.git",
   },
   {
@@ -21,7 +20,7 @@ const projects = [
       "REACT | NODEJS | EXPRESS | TAILWIND CSS | MONGODB | CASHFREE PAYMENT GATEWAY",
     link: "https://gitlab.com/komalSingh9289/bookstore.git",
   },
-   {
+  {
     title: "Expense Tracker",
     description:
       "A web application to manage personal finances effectively. Track daily expenses with charts and reports. Integrates Gemini API for AI-driven financial insights.",
@@ -29,6 +28,15 @@ const projects = [
       "REACT | NODEJS | TAILWIND CSS | MONGODB | GEMINI API  | RESTful | Charts",
     image: "/ecom-site.png",
     link: "https://expense-tracker-drab-sigma-49.vercel.app/",
+  },
+  {
+    title: "Salon Booking Website",
+    description:
+      "Developed a salon booking website for a small business to allow customers to browse services and request appointments. Implemented WhatsApp redirection so booking details are sent directly to the salon owner. Built using React and Supabase with responsive UI and deployed on Vercel.",
+    stack:
+      "REACT | SUPABASE | TAILWIND CSS | WHATSAPP INTEGRATION | RESTful | VERCEL",
+    image: "/salon.png",
+    link: "https://sm60-salon.vercel.app/",
   },
   {
     title: "ECOMMERCE [VOGUEVIBE]",
