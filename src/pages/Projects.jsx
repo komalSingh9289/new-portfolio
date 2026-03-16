@@ -30,9 +30,9 @@ const projects = [
     link: "https://expense-tracker-drab-sigma-49.vercel.app/",
   },
   {
-    title: "Salon Booking Website",
+    title: "Salon Booking Website (Freelance)",
     description:
-      "Developed a salon booking website for a small business to allow customers to browse services and request appointments. Implemented WhatsApp redirection so booking details are sent directly to the salon owner. Built using React and Supabase with responsive UI and deployed on Vercel.",
+      "Developed a salon booking website for a small business to allow customers to browse services and request appointments. Implemented WhatsApp redirection so booking details are sent directly to the salon owner.",
     stack:
       "REACT | SUPABASE | TAILWIND CSS | WHATSAPP INTEGRATION | RESTful | VERCEL",
     image: "/salon.png",
