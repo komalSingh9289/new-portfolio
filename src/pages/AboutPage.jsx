@@ -39,7 +39,7 @@ const AboutPage = () => {
               <div className="ml-6 mt-2 mb-5">
                 <div className="absolute w-3 h-3 bg-pink-500 rounded-full -left-1.5 border border-gray-900"></div>
                 <time className="mb-1 text-sm text-gray-400">Present</time>
-                <p className="text-gray-300 text-lg">Seeking new opportunities</p>
+                <p className="text-gray-300 text-lg">Learning new things and Seeking new opportunities</p>
               </div>
 
               {/* 2025 */}
@@ -47,7 +47,7 @@ const AboutPage = () => {
                 <div className="absolute w-3 h-3 bg-purple-500 rounded-full -left-1.5 border border-gray-900"></div>
                 <time className="mb-1 text-sm text-gray-400">2025</time>
                 <p className="text-gray-300 text-lg">
-                  Got 6-month internship & started MCA
+                  Got internship & started MCA
                 </p>
               </div>
 
@@ -58,13 +58,6 @@ const AboutPage = () => {
                 <p className="text-gray-300 text-lg">Graduated with BCA</p>
               </div>
 
-              {/* 2022 */}
-              <div className="mb-2 ml-6">
-                <div className="absolute w-3 h-3 bg-blue-500 rounded-full -left-1.5 border border-gray-900"></div>
-                <time className="mb-1 text-sm text-gray-400">2022</time>
-                <p className="text-gray-300 text-lg">Wrote my first code</p>
-              </div>
-            </div>
           </div>
         </motion.div>
 
@@ -162,7 +155,7 @@ const AboutPage = () => {
               </span>
               <div className="flex-grow border-t border-gray-600"></div>
             </div>
-            <p className="text-lg text-start ml-5 mt-2 font-thin">⏳ 6 months</p>
+            <p className="text-lg text-start ml-5 mt-2 font-thin">⏳ 6+ months</p>
           </div>
 
           <div className="flex flex-col ">
