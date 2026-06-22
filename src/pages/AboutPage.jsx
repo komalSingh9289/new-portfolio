@@ -57,7 +57,7 @@ const AboutPage = () => {
                 <time className="mb-1 text-sm text-gray-400">2024</time>
                 <p className="text-gray-300 text-lg">Graduated with BCA</p>
               </div>
-
+            </div>
           </div>
         </motion.div>
 
@@ -85,7 +85,7 @@ const AboutPage = () => {
             {/* Profile Icon */}
             <div className="relative -mt-12 flex flex-col items-center gap-2 px-5 py-5">
               <div className="bg-green-200 rounded-full p-4">
-                <img src="/avatar.svg" width={100} height={100} />
+                <img src="/avatar.svg" width={100} height={100} alt="Avatar profile graphic" />
               </div>
 
               {/* Name & Bio */}
@@ -212,8 +212,7 @@ const AboutPage = () => {
               <Paintbrush /> UI/UX Implementation
             </h3>
             <p className="text-gray-300 text-sm mb-4">
-              Creating clean, intuitive user interfaces <br /> with smooth
-              animations.
+              Creating clean, intuitive user interfaces with smooth animations.
             </p>
           </div>
         </motion.div>
